@@ -7,7 +7,7 @@ def conectar_api():
 
     try:
         while True:
-            operacao_validas = ['soma', 'subtração', 'divisão', ' multiplicação']
+            operacao_validas = ['soma', 'subtração', 'divisão', 'multiplicação']
             entrada_operacao = input("Qual operação você vai querer realizar? (exemplo: soma, subtração, divisão e multiplicação)")
             operacao = entrada_operacao.lower()
 
